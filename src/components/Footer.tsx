@@ -6,9 +6,10 @@ export function Footer() {
       <div className="container mx-auto max-w-6xl">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-xl font-bold mb-4">CodeCraft</h3>
+            <h3 className="text-xl font-bold mb-4">🏗️ СтройГалерея</h3>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              2025 CodeCraft. Все права защищены.
+              Маркетплейс строительных проектов. Находите мастеров по реальным фото работ.
+              <br />© 2026 СтройГалерея. Все права защищены.
             </p>
           </div>
 
@@ -17,22 +18,22 @@ export function Footer() {
             <ul className="space-y-2">
               <li>
                 <a href="#about" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-                  О нас
+                  О платформе
                 </a>
               </li>
               <li>
                 <a href="#services" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-                  Услуги
+                  Категории
                 </a>
               </li>
               <li>
                 <a href="#portfolio" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-                  Портфолио
+                  Работы мастеров
                 </a>
               </li>
               <li>
                 <a href="#contact" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-                  Контакты
+                  Разместить работы
                 </a>
               </li>
             </ul>

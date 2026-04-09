@@ -2,19 +2,19 @@ import { Card, CardContent } from "@/components/ui/card"
 import { CheckCircle2, Sparkles } from "lucide-react"
 
 const values = [
-  { title: "Качество", description: "Высококлассные решения, соответствующие самым высоким стандартам" },
-  { title: "Доступность", description: "Профессиональные сайты по честным и прозрачным ценам" },
-  { title: "Прозрачность", description: "Четкая коммуникация без скрытых платежей" },
-  { title: "Клиентоориентированность", description: "Ваши цели и пожелания всегда в приоритете" },
-  { title: "Масштабируемость", description: "Сайты, которые растут вместе с вашим бизнесом" },
-  { title: "Гибкость", description: "Быстрая адаптация под меняющиеся потребности" },
+  { title: "Реальные фото", description: "Только настоящие работы мастеров — без стоковых изображений и монтажа" },
+  { title: "Проверенные мастера", description: "Каждый специалист подтверждает свои работы с описанием и контактами" },
+  { title: "Удобный поиск", description: "Pinterest-подобная галерея с фильтрами по категориям, городам и стилям" },
+  { title: "Прямой контакт", description: "Вы сразу видите профиль мастера и можете с ним связаться без посредников" },
+  { title: "Вдохновение", description: "Тысячи идей для ремонта, строительства и обустройства вашего дома" },
+  { title: "Для мастеров", description: "Бесплатно публикуйте свои работы и получайте новых клиентов" },
 ]
 
 const stats = [
-  { number: "50+", label: "Проектов" },
-  { number: "45+", label: "Довольных клиентов" },
-  { number: "30+", label: "Созданных логотипов" },
-  { number: "3+", label: "Года опыта" },
+  { number: "500+", label: "Проектов" },
+  { number: "120+", label: "Мастеров" },
+  { number: "8", label: "Категорий" },
+  { number: "30+", label: "Городов" },
 ]
 
 export function AboutSection() {
@@ -27,19 +27,19 @@ export function AboutSection() {
         <div className="text-center mb-16">
           <div className="inline-flex items-center gap-2 mb-4 px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-semibold">
             <Sparkles className="h-4 w-4" />
-            О CodeCraft
+            О платформе
           </div>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 text-balance">
-            Качество, которое{" "}
+            Платформа, которая{" "}
             <span className="text-primary relative">
-              впечатляет
+              объединяет
               <svg className="absolute -bottom-2 left-0 w-full" height="8" viewBox="0 0 200 8" fill="none">
                 <path d="M0 4C50 2 150 6 200 4" stroke="currentColor" strokeWidth="2" className="text-primary" />
               </svg>
             </span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto text-pretty leading-relaxed">
-            Создание сайта не должно быть дорогим. Мы разрабатываем индивидуальные решения, которые идеально соответствуют пожеланиям каждого клиента.
+            СтройГалерея — это место, где строительные компании, дизайнеры и частные мастера показывают свои лучшие работы, а заказчики находят идеальных исполнителей.
           </p>
         </div>
 
